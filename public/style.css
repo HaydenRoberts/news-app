@@ -3,12 +3,26 @@
     padding: 15px;
 }
 
+.row {
+    padding: 15px;
+}
+
 a {
     text-decoration: none;
     color: inherit;
 }
 
 a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
     text-decoration: none;
     color: inherit;
 }
@@ -82,4 +96,45 @@ a:hover {
 
 .links:hover {
     opacity: .5;
+}
+
+.article {
+    box-shadow: 7px 10px 18px 1px rgba(173, 173, 173, 0.5);
+    font-size: 20px;
+    margin: 40px 20px 20px 20px;
+    position: relative;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+.title {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(101, 185, 170);
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+}
+
+.description {
+    padding: 15px;
+}
+
+.note-button {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+}
+
+.note-button:hover {
+    cursor: pointer;
+}
+
+.notes {
+    background-color: red;
+    top: 55px;
+    background-color: #fff0d4;
+    padding: 15px;
 }
